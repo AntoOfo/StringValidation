@@ -10,6 +10,15 @@ namespace StringValidation
 
             string userString = Console.ReadLine();     // User Input
 
+            if (CheckUppercase(userString) && EvenQuotes(userString) && EndOfSentence(userString) && NumberSpellOut(userString) && EndPeriod(userString))
+            {
+                Console.WriteLine("Valid Sentence! :)");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Sentence.. :(");
+            }
+
 
             static bool CheckUppercase(string upper)
             {
@@ -47,7 +56,6 @@ namespace StringValidation
 
             static bool NumberSpellOut(string sentence)
             {
-                int number = c - '0';
 
                 foreach (char c in sentence) {
 
@@ -55,7 +63,7 @@ namespace StringValidation
                     {
                         int number = c - '0';
 
-                      
+                        if (number < 13)
                         {
                             Console.WriteLine("Numbers under 13 should be spelled out");
                             return false;
@@ -64,6 +72,27 @@ namespace StringValidation
                 }
                 return true;
 
+            }
+
+            static bool EndPeriod(string sentence)
+            {
+                int count = 0;
+
+                for (int i = 0; i < sentence.Length - 1; i++)
+                {
+                    if (sentence[i] == '.')
+                    {
+                        count++;
+                    }
+                }
+
+                if (count > 0)
+                {
+                    Console.WriteLine("Sentence should only have period at the end");
+                    return false;
+                }
+
+                return true;
             }
 
 

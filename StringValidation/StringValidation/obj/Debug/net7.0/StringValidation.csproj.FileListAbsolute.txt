@@ -1,0 +1,4 @@
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.AssemblyInfoInputs.cache
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.AssemblyInfo.cs
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.csproj.CoreCompileInputs.cache
