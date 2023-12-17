@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StringValidation",
+    "\\StringValidation\\StringValidation"
   ],
-  "SelectedNode": "\\StringValidation.sln",
+  "SelectedNode": "\\StringValidation\\StringValidation\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
