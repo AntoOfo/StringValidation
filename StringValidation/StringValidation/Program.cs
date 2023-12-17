@@ -47,8 +47,22 @@ namespace StringValidation
 
             static bool NumberSpellOut(string sentence)
             {
+                int number = c - '0';
 
+                foreach (char c in sentence) {
 
+                    if (char.IsLetterOrDigit(c))
+                    {
+                        int number = c - '0';
+
+                      
+                        {
+                            Console.WriteLine("Numbers under 13 should be spelled out");
+                            return false;
+                        }
+                    }
+                }
+                return true;
 
             }
 
