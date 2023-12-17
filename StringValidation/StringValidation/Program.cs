@@ -24,7 +24,7 @@ namespace StringValidation
             {
                 if (char.IsUpper(upper[0]) == false)        // if first character in string is uppercase
                 {
-                    Console.WriteLine("Sentence needs to start with capital letter.")
+                    Console.WriteLine("Sentence needs to start with capital letter.");
                     return false;
                 }
 
@@ -35,7 +35,7 @@ namespace StringValidation
             static bool EvenQuotes(string quotes)
             {
 
-                return quotes.Count('"') % 2 == 0;      // count method with " as param
+                return quotes.Count(c => c == '"') % 2 == 0;      // count method with " as param
 
 
             }
@@ -44,7 +44,7 @@ namespace StringValidation
             {
                 char endChar = sentence[sentence.Length - 1];
 
-                if (endChar != '.' ||  endChar != '?' || endChar != '!')        // if endchar doesnt end with terminators
+                if (endChar != '.' &&  endChar != '?' && endChar != '!')        // if endchar doesnt end with terminators
                 {
                     Console.WriteLine("Sentence needs to end with a terminator");
                     return false;
@@ -59,9 +59,9 @@ namespace StringValidation
 
                 foreach (char c in sentence) {
 
-                    if (char.IsLetterOrDigit(c))
+                    if (char.IsDigit(c))        // checks if character is a digit
                     {
-                        int number = c - '0';
+                        int number = c - '0';       // converts it to an int
 
                         if (number < 13)
                         {
@@ -78,7 +78,7 @@ namespace StringValidation
             {
                 int count = 0;
 
-                for (int i = 0; i < sentence.Length - 1; i++)
+                for (int i = 0; i < sentence.Length - 1; i++)       // iterates throough each char except last
                 {
                     if (sentence[i] == '.')
                     {

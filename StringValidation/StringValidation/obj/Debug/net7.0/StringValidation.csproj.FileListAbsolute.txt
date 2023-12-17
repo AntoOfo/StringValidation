@@ -2,3 +2,13 @@ C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringV
 C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.AssemblyInfoInputs.cache
 C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.AssemblyInfo.cs
 C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.csproj.CoreCompileInputs.cache
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\bin\Debug\net7.0\StringValidation.exe
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\bin\Debug\net7.0\StringValidation.deps.json
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\bin\Debug\net7.0\StringValidation.runtimeconfig.json
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\bin\Debug\net7.0\StringValidation.dll
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\bin\Debug\net7.0\StringValidation.pdb
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.dll
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\refint\StringValidation.dll
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.pdb
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\StringValidation.genruntimeconfig.cache
+C:\Users\mps21ofa\Source\Repos\AntoOfo\StringValidation\StringValidation\StringValidation\obj\Debug\net7.0\ref\StringValidation.dll
