@@ -23,20 +23,32 @@ namespace StringValidation
 
             }
 
-            static bool EvenQuotation(string quotation)
+            static bool EvenQuotes(string quotes)
             {
-                int count = 0;
+
+                return quotes.Count('"') % 2 == 0;      // count method with " as param
 
 
             }
 
             static bool EndOfSentence(string sentence)
             {
+                char endChar = sentence[sentence.Length - 1];
+
+                if (endChar != '.' ||  endChar != '?' || endChar != '!')        // if endchar doesnt end with terminators
+                {
+                    Console.WriteLine("Sentence needs to end with a terminator");
+                    return false;
+                }
+
+                return true;
 
             }
 
             static bool NumberSpellOut(string sentence)
             {
+
+
 
             }
 
